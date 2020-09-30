@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -11,6 +13,7 @@ html{
 
 body{
   background-image: url(../images/tft-bg.svg);
+  font-family: 'Londrina Solid', cursive;
 }
 
 header{
@@ -61,7 +64,7 @@ a{
 li, a{
   font-weight: 500;
   margin-right: 40px;
-  font-size: 26px;
+  font-size: 32px;
   color: #edf0f1;
   text-decoration: none;
 }
@@ -78,6 +81,8 @@ nav ul{
   height: calc(100vh - 81.6px);
 }
 
+
+
 #main-logo-tft{
   width: 25%;
   align-self: center;
@@ -87,7 +92,7 @@ nav ul{
 #main-text-tft{
   color: #fff;
   text-align: center;
-  font-size: 26px;
+  font-size: 28px;
   margin-top: 50px;
 }
 
@@ -114,7 +119,7 @@ nav ul{
 .tft-text-about{
   float: left;
   color: #fff;
-  font-size: 18px;
+  font-size: 26px;
   max-width: 900px;
   background-color: #241717;
   box-shadow: 0 0 1.2rem rgba(255, 255, 255, .50);
@@ -138,7 +143,7 @@ nav ul{
   background-image: url(../images/tft-bg-rules.svg);
 }
 
-.tft-rules h1{
+.tft-rules h1, .tft-dl h1{
   font-size: 5rem;
   z-index: 0;
   color: #fff;
@@ -146,7 +151,7 @@ nav ul{
 }
 
 .tft-text-rules{
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   color: #fff;
   max-width: 800px;
   position: relative;
@@ -162,4 +167,189 @@ nav ul{
   background-image: url(../images/tft-bg-play.svg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.tft-text-carrousel{
+  color: #fff;
+  margin-left: -20px;
+  margin-top: 80px;
+  text-align: center;
+  font-size: 1.4rem;
+  float: left;
+}
+
+#tft-carrousel{
+  border: 2px solid black;
+  border-radius: 2px;
+  margin-top: 15px;
+  width: 78%;
+}
+
+.tft-text-prepa{
+  float: left;
+  color: #fff;
+  margin-left: -25px;
+  margin-top: 80px;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+#tft-prepa{
+  width: 70%;
+  margin-top: 15px;
+  border: 2px solid black;
+  border-radius: 2px;
+  margin-right: 0;
+}
+
+.tft-text-combat{
+  color: #fff;
+  font-size: 1.4rem;
+  text-align: center;
+  margin-top: 80px;
+  margin-right: 200px;
+}
+
+#tft-combat{
+  width: 25.5%;
+  margin-top: 15px;
+  border: 2px solid black;
+  border-radius: 2px;
+}
+
+.tft-text-carrousel, .tft-text-prepa, .tft-text-combat{
+  margin-top: 180px;
+}
+
+.tft-dl{
+  height: 100vh;
+  background-image: url(../images/tft-bg-dl.gif);
+
+}
+
+.tft-dl-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+button{
+  background-color: rgba(0,136,169,1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  padding: 15px 25px;
+}
+
+button:hover{
+background-color: rgba(0,136,169,0.8);
+}
+
+#btn-dl, button{
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+#tft-logo-dl{
+  width: 30%;
+}
+
+.tft-text-dl{
+  color: #fff;
+  margin-top: 25px;
+}
+
+#tft-p-info-dl{
+  font-size: 26px;
+  margin-top: 20px;
+}
+
+.tft-app-dl{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  margin-top: 100px;
+  margin-left: 170px;
+}
+
+#tft-apple, #tft-google{
+  float: left;
+}
+
+#app-store, #google-play{
+  width: 120%;
+  font-size: 26px;
+}
+
+span{
+  margin-left: 64px;
+}
+
+footer{
+  background-image: url(../images/tft-bg-play.svg);
+  padding: 30px 0;
+  color: #fff;
+}
+
+.footer-container{
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+
+.center-content h1{
+  font-size: 26px;
+  text-align: center;
+}
+
+.border{
+  width: 100px;
+  height: 4px;
+  background: #fff;
+  margin-top: 8px;
+  margin-left: 45px;
+}
+
+.social-media{
+  margin: 20px 0;
+  text-align: center;
+  margin-left: 25px;
+}
+
+.social-media a{
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: .3s linear;
+}
+
+.social-media a:hover{
+  color: #d33838;
+}
+
+.tft-more-info{
+  color: #fff;
+  font-size: 26px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 150px;
+  margin-left: 670px;
+}
+
+#tft-guide{
+  text-decoration: underline;
 }

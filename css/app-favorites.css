@@ -57,17 +57,18 @@ h1{
   margin-left: -100px;
 }
 
-#title-tft, #logo-tft, #title-insta, #logo-insta, #title-deezer, #logo-deezer, #title-netflix, #logo-netflix{
+#title-tft, #logo-tft, #title-insta, #logo-insta, #title-deezer, #logo-deezer{
   width: 32%;
 }
 
 #title-insta{
   margin-left: -20px;
-  margin-top: -5px;
+  margin-top: -22px;
 }
 
 #logo-insta{
-  margin-top: -150px;
+  width: 175px;
+  margin-top: -250px;
   margin-left: -25px;
 }
 
@@ -99,24 +100,6 @@ h1{
   margin-left: -600px;
 }
 
-#title-netflix{
-  width: 180px;
-  margin-left: -130px;
-  margin-top: -20px;
-}
-
-#logo-netflix{
-  width: 230px;
-  margin-top: -150px;
-  margin-left: -160px;
-}
-
-.main-netflix{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
 .footer-container{
   display: flex;
   flex-direction: row;
@@ -124,9 +107,10 @@ h1{
 }
 
 footer{
-  margin-top: -50px;
-  margin-bottom: -80px;
-  padding: 38.5px 0;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding: 39px 0;
+  background-color: rgba(0, 0, 0, .1);
 }
 
 .social-media{
