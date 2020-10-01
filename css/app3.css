@@ -1,0 +1,158 @@
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-image: url(../images/deezer-bg.svg);
+}
+
+.nav-links{
+  list-style: none;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.nav-links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-links li a{
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+  color: #ef5466;
+  font-weight: bold;
+}
+
+li{
+  list-style: none;
+  margin-left: 100px;
+}
+
+a{
+  text-decoration: none;
+  font-size: .9rem;
+  text-transform: uppercase;
+  position: relative;
+}
+
+li, a{
+  font-weight: 500;
+  margin-right: 1px;
+  font-size: 26px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 280px;
+}
+
+.main-info-section{
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 81.6px);
+  align-items: center;
+  margin-left: 600px;
+}
+
+#main-deezer-logo{
+  width: 15%;
+  margin-top: -600px;
+  margin-left: 240px;
+}
+
+#main-text-deezer{
+  color: #fff;
+  text-align: center;
+  font-size: 54px;
+  font-style: italic;
+  margin-left: -340px;
+  margin-top: -200px;
+}
+
+#deezer-main-gif{
+  width: 40%;
+  margin-top: 560px;
+  margin-left: -450px;
+}
+
+.insta-history{
+  height: 100vh;
+  margin-top: 100px;
+  background-color: #121216;
+}
+
+.insta-history h1{
+  font-size: 5rem;
+  z-index: 0;
+  color: #ef5466;
+}
+
+.insta-text-history{
+  float: right;
+  text-align: center;
+  color: #fff;
+  font-size: 26px;
+  max-width: 900px;
+  background-color: #191922;
+  box-shadow: 0 0 1.2rem rgba(255, 255, 255, .50);
+  padding: 50px;
+  position: relative;
+  top: 15%;
+  right: 2%;
+  transform: translateX(-50%);
+  z-index: 1;
+  border-radius: 5%;
+}
+
+#deezer-music-history{
+  width: 80%;
+  margin-top: -555px;
+  margin-left: 200px;
+}
+
+.deezer-fonction{
+  height: 100vh;
+  background-image: url(../images/deezer-bg-fonction.svg);
+}
+
+.deezer-fonction h1{
+  font-size: 5rem;
+  z-index: 0;
+  color: #fff;
+  text-align: right;
+}
+
+.deezer-text-fonction{
+  font-size: 1.7rem;
+  color: #fff;
+  max-width: 800px;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-top: 100px;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+/* REPRENDRE ICI */
+
+#deezer-damso{
+  width: 10%;
+}
