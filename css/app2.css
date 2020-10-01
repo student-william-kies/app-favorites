@@ -89,6 +89,19 @@ nav ul{
   font-size: 54px;
   margin-left: 100px;
   font-family: 'Schoolbell', cursive;
+  text-shadow:
+  0 1px 0 #ccc,
+  0 2px 0 #c9c9c9,
+  0 3px 0 #bbb,
+  0 4px 0 #b9b9b9,
+  0 5px 0 #aaa,
+  0 6px 1px rgba(0,0,0,.1),
+  0 0 5px rgba(0,0,0,.1),
+  0 1px 3px rgba(0,0,0,.3),
+  0 3px 5px rgba(0,0,0,.2),
+  0 5px 10px rgba(0,0,0,.25),
+  0 10px 10px rgba(0,0,0,.2),
+  0 20px 20px rgba(0,0,0,.15);
 }
 
 .insta-history{
@@ -97,10 +110,24 @@ nav ul{
   background-image: url(../images/insta-bg-history.svg);
 }
 
-.insta-history h1{
+.insta-history h1, .insta-dl h1{
   font-size: 5rem;
+  text-align: left;
   z-index: 0;
   color: #fff;
+  text-shadow:
+  0 1px 0 #ccc,
+  0 2px 0 #c9c9c9,
+  0 3px 0 #bbb,
+  0 4px 0 #b9b9b9,
+  0 5px 0 #aaa,
+  0 6px 1px rgba(0,0,0,.1),
+  0 0 5px rgba(0,0,0,.1),
+  0 1px 3px rgba(0,0,0,.3),
+  0 3px 5px rgba(0,0,0,.2),
+  0 5px 10px rgba(0,0,0,.25),
+  0 10px 10px rgba(0,0,0,.2),
+  0 20px 20px rgba(0,0,0,.15);
 }
 
 .insta-text-history{
@@ -160,11 +187,24 @@ nav ul{
   background-image: url(../images/insta-bg-personnality.svg);
 }
 
-.insta-personnality h1, .insta-dl h1{
+.insta-personnality h1{
   font-size: 5rem;
   z-index: 0;
   color: #fff;
   text-align: right;
+  text-shadow:
+  0 1px 0 #ccc,
+  0 2px 0 #c9c9c9,
+  0 3px 0 #bbb,
+  0 4px 0 #b9b9b9,
+  0 5px 0 #aaa,
+  0 6px 1px rgba(0,0,0,.1),
+  0 0 5px rgba(0,0,0,.1),
+  0 1px 3px rgba(0,0,0,.3),
+  0 3px 5px rgba(0,0,0,.2),
+  0 5px 10px rgba(0,0,0,.25),
+  0 10px 10px rgba(0,0,0,.2),
+  0 20px 20px rgba(0,0,0,.15);
 }
 
 .insta-text-personnality{
