@@ -74,8 +74,6 @@ nav ul{
   height: calc(100vh - 81.6px);
 }
 
-
-
 #main-logo-tft{
   width: 25%;
   align-self: center;
@@ -239,7 +237,7 @@ button{
 }
 
 button:hover{
-background-color: rgba(0,136,169,0.8);
+  background-color: rgba(0,136,169,0.8);
 }
 
 #btn-dl, button{

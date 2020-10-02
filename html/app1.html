@@ -7,37 +7,40 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
   </head>
   <body>
+
     <!-- Header -->
     <header>
-        <nav>
-          <ul class="nav-links">
-            <li><a href="../app-favorites.html">Accueil</a></li>
-            <li><a href="#tft">TFT, c'est quoi ?</a></li>
-            <li><a href="#rules">Les règles</a></li>
-            <li><a href="#play">Déroulement du jeu</a></li>
-            <li><a href="#dl">Téléchargement</a></li>
-          </ul>
-        </nav>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="../app-favorites.html">Accueil</a></li>
+          <li><a href="#tft">TFT, c'est quoi ?</a></li>
+          <li><a href="#rules">Les règles</a></li>
+          <li><a href="#play">Déroulement du jeu</a></li>
+          <li><a href="#dl">Téléchargement</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <!-- Contenu de la page -->
-    <section class="main-info-section">
-      <img id="main-logo-tft" src="../images/tft-logo.svg" alt="Logo">
-      <p id="main-text-tft">Teamfight Tactics (ou combats tactique) est lancé par Riot Games le 26 Juin 2019,
-        <br>
-        en se basant sur l'Auto Chess-like. Vous trouverez dans cette page tout ce dont
-        il faut savoir !</p>
-    </section>
+    <!-- Main -->
+    <main>
+      <article>
+        <section class="main-info-section">
+          <img id="main-logo-tft" src="../images/tft-logo.svg" alt="Logo">
+          <p id="main-text-tft">Teamfight Tactics (ou combats tactique) est lancé par Riot Games le 26 Juin 2019,
+          <br>
+          en se basant sur l'Auto Chess-like. Vous trouverez dans cette page tout ce dont
+          il faut savoir !</p>
+        </section>
+      </article>
+    </main>
 
     <!-- Ancre TFT, c'est quoi ? -->
     <section class="tft-about" id="tft">
       <h1>C'est quoi TFT ?</h1>
       <section class="tft-text-about">
         <p>Teamfight Tactics est un jeu ou vous combattez sept adversaires
-        <br>
-        dont le but est de construire une équipe afin de survivre et d'en être
-        <br>
-        le dernier survivant.</p>
+        <br>dont le but est de construire une équipe afin de survivre et d'en être
+        <br>le dernier survivant.</p>
       </section>
       <img id="tft-about1" src="../images/tft-about1.svg" alt="interface tft">
       <img id="tft-legend" src="../images/tft-legend.svg" alt="Petite legende">
@@ -48,13 +51,10 @@
       <h1>Les règles</h1>
       <section class="tft-text-rules">
         <p>Teamfight Tactics est un jeu de stratégie dans lequel 8 joueurs s'affrontent.
-          <br>
-          Chaque joueur incarne un avatar appelé Petite Légende qui doit se constituer une armée de personnages et les disposer sur un plateau,
-          avant de l'opposer aux armées des autres joueurs dans une suite de duels.
-          <br>
-          Au cours des combats, les joueurs ne peuvent pas donner d'ordres à leurs unités, c'est l'I.A. qui prend le relais.
-          <br>
-          Quand un joueur remporte un duel, il blesse le joueur adverse. Le dernier joueur encore en vie remporte la partie.</p>
+        <br>Chaque joueur incarne un avatar appelé Petite Légende qui doit se constituer une armée de personnages et les disposer sur un plateau,
+        avant de l'opposer aux armées des autres joueurs dans une suite de duels.
+        <br>Au cours des combats, les joueurs ne peuvent pas donner d'ordres à leurs unités, c'est l'I.A. qui prend le relais.
+        <br>Quand un joueur remporte un duel, il blesse le joueur adverse. Le dernier joueur encore en vie remporte la partie.</p>
       </section>
     </section>
 
@@ -62,18 +62,22 @@
     <section class="tft-play" id="play">
       <section class="tft-position">
         <h1>Les phases du jeux</h1>
+        <!-- Phase Carrousel -->
         <section class="tft-text-carrousel">
           <p>"Phase Carrousel"</p>
           <img id="tft-carrousel" src="../images/tft-carrousel.svg" alt="Carrousel">
         </section>
+        <!-- Phase de Préparation -->
         <section class="tft-text-prepa">
           <p>"Phase de préparation"</p>
           <img id="tft-prepa" src="../images/tft-prepa.svg" alt="Phase de prepa">
         </section>
+        <!-- Phase de Combat -->
         <section class="tft-text-combat">
           <p>"Phase de combat"</p>
           <img id="tft-combat" src="../images/tft-combat.svg" alt="Phase de combat">
         </section>
+        <!-- plus d'info -->
         <section class="tft-more-info">
           <p>Plus de details:</p><a id="tft-guide" href="https://fr.millenium.gg/guide/336393.html" target="_blank">millenium.gg/guide/</a>
         </section>
@@ -88,27 +92,27 @@
         <section class="tft-text-dl">
           <a id="btn-dl" href="https://signup.euw.leagueoflegends.com/fr/teamfight-tactics/signup/index#/" target="_blank"><button>Jouer gratuitement</button></a>
           <p id="tft-p-info-dl">Jouer gratuitement sur mobiles et PC !</p>
-      </section>
-      <section class="tft-app-dl">
-        <a id="app-store" href="https://apps.apple.com/app/id1480616748?referrer=singular_click_id%3Dfa3afc94-7568-4df1-8d3d-f5b75e202b20" target="_blank"><i id="tft-apple" class="fab fa-apple"></i><p> Available on the<br><span>App Store</span></p></a>
-        <a id="google-play" href="https://play.google.com/store/apps/details?id=com.riotgames.league.teamfighttactics&referrer=singular_click_id%3D09999aff-bd8b-485e-811b-d6dfedea02bc" target="_blank"><i id="tft-google" class="fab fa-google-play"></i><p> Get it on<br>Google Play</p></a>
-      </section>
-    </section>
-  </section>
-  <!--footer -->
-  <footer>
-    <section class="footer-container">
-      <section class="center-content">
-        <h1>Réseaux TFT</h1>
-        <section class="border"></section>
-        <section class="social-media">
-          <a href="https://www.facebook.com/tftfrance" target="_blank"><i class="fab fa-facebook-f"></i></a>
-          <a href="https://twitter.com/tft" target="_blank"><i class="fab fa-twitter"></i></a>
-          <a href="https://www.instagram.com/playtft/?hl=fr" target="_blank"><i class="fab fa-instagram"></i></a>
         </section>
-        <p>© 2020 Created by William Kies.</p>
+        <section class="tft-app-dl">
+          <a id="app-store" href="https://apps.apple.com/app/id1480616748?referrer=singular_click_id%3Dfa3afc94-7568-4df1-8d3d-f5b75e202b20" target="_blank"><i id="tft-apple" class="fab fa-apple"></i><p> Available on the<br><span>App Store</span></p></a>
+          <a id="google-play" href="https://play.google.com/store/apps/details?id=com.riotgames.league.teamfighttactics&referrer=singular_click_id%3D09999aff-bd8b-485e-811b-d6dfedea02bc" target="_blank"><i id="tft-google" class="fab fa-google-play"></i><p> Get it on<br>Google Play</p></a>
+        </section>
       </section>
     </section>
-  </footer>
+    <!--footer -->
+    <footer>
+      <section class="footer-container">
+        <section class="center-content">
+          <h1>Réseaux TFT</h1>
+          <section class="border"></section>
+          <section class="social-media">
+            <a href="https://www.facebook.com/tftfrance" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/tft" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/playtft/?hl=fr" target="_blank"><i class="fab fa-instagram"></i></a>
+          </section>
+          <p>© 2020 Created by William Kies.</p>
+        </section>
+      </section>
+    </footer>
   </body>
 </html>
